@@ -13,7 +13,7 @@ const {Option} = Select;
 let host = window.location.host;
 
 let dapp = {
-    name: "HAPPYCB",
+    name: "HAPPYK",
     contractAddress: "25CHRYtgyxS1juHEv5ERh3PyD4X2PZZF529fgWDTLYbZ1K187MAQf4rVk2cBMLnhNL1APH6i1rSt6HGZZE3c3c2s",
     github: "https://github.com/asnowhero/asnow-app",
     author: "asnow",

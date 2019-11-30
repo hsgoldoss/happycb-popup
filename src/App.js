@@ -50,12 +50,12 @@ let decimal = new BigNumber(10).pow(18);
 const {Countdown} = Statistic;
 
 let dapp = {
-    name: "HAPPYCB",
+    name: "HAPPYK",
     contractAddress: "3j1fxFVHWxWthRDBrStMLrfastb8V7HnmC4ywu8ZEfiQBZiq74MWFhdHHF1FBjd9qQ8J3HXFDfZtebCEo78Adxx2",
-    github: "https://github.com/hsgoldoss/happycb-popup",
-    author: "HAPPYCB",
+    github: "https://github.com/hsgoldoss/happyk-popup",
+    author: "HAPPYK",
     url: document.location.href,
-    logo: document.location.protocol + '//' + document.location.host + '/happycb-popup/logo.png'
+    logo: document.location.protocol + '//' + document.location.host + '/happyk-popup/logo.png'
 };
 
 
@@ -124,8 +124,8 @@ const BuyAsnowForm = Form.create({name: 'form_in_modal1'})(
                                             placeholder={Lang[that.props.lang].account.modal.buyAsnow.amountPlace}
                                             autoComplete="off"/>)}
                         </Form.Item>
-                        <p>Rate: {<span style={{color: '#1DA57A'}}>1 HAPPYCB = {rate} FPRS</span>} , Exchange: {<strong
-                            style={{color: 'rgb(216, 0, 38)'}}>{new BigNumber(this.state.asnow).toFixed(6)}</strong>} HAPPYCB</p>
+                        <p>Rate: {<span style={{color: '#1DA57A'}}>1 HAPPYK = {rate} FPRS</span>} , Exchange: {<strong
+                            style={{color: 'rgb(216, 0, 38)'}}>{new BigNumber(this.state.asnow).toFixed(6)}</strong>} HAPPYK</p>
                     </Form>
                 </Modal>
             );
@@ -236,7 +236,7 @@ const InvestForm = Form.create({name: 'form_in_modal2'})(
                                 that.setState({ticketSero: v});
                                 that.staticTotal();
                             }} allowClear placeholder="0.000000" autoComplete="off"/>)}
-                            <br/> FPRS (1 HAPPYCB
+                            <br/> FPRS (1 HAPPYK
                             = {rate} FPRS){Lang[that.props.lang].account.modal.invest.availableAsnow}: {<span
                             style={{color: '#1DA57A'}}>{asnow ? asnow : "0"}</span>}
                         </Form.Item>
@@ -248,7 +248,7 @@ const InvestForm = Form.create({name: 'form_in_modal2'})(
 
                         <p>{Lang[that.props.lang].account.modal.invest.total} : <strong
                             style={{color: 'rgb(216, 0, 38)'}}>{this.state.total}</strong> FPRS, <strong
-                            style={{color: 'rgb(216, 0, 38)'}}>{this.state.ticketAsnow}</strong> HAPPYCB</p>
+                            style={{color: 'rgb(216, 0, 38)'}}>{this.state.ticketAsnow}</strong> HAPPYK</p>
                     </Form>
                 </Modal>
             );
@@ -446,7 +446,7 @@ class ContentPage extends Component {
             balanceObj.forEach(function (value, currency) {
                 if (currency === 'FPRS') {
                     balanceSero = new BigNumber(value).dividedBy(decimal).toFixed(6);
-                } else if (currency === 'HAPPYCB') {
+                } else if (currency === 'HAPPYK') {
                     balanceAsnow = new BigNumber(value).dividedBy(decimal).toFixed(6);
                 }
             });
@@ -802,7 +802,7 @@ class ContentPage extends Component {
                 message.warn(Lang[that.state.lang].toast.lessAsnow);
             } else {
                 try {
-                    this.executeMethod("paymentAsnow", [], new BigNumber(amount).multipliedBy(decimal).toString(16), "HAPPYCB", '', function (res) {
+                    this.executeMethod("paymentAsnow", [], new BigNumber(amount).multipliedBy(decimal).toString(16), "HAPPYK", '', function (res) {
                         if (res) {
                             form.resetFields();
                             that.setState({showBuyTicket: false});

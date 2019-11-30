@@ -3,11 +3,11 @@ class Lang {
     zh_CN={
         project:{
             title:"合约详情",
-            totalSupply:"发行量 (HAPPYCB)",
+            totalSupply:"发行量 (HAPPYK)",
             contractAddress:"合约地址",
             balanceSero:"当前余额 (FPRS)",
-            balanceAsnow:"当前余额 (HAPPYCB)",
-            rate:"兑换比例 (FPRS / HAPPYCB)",
+            balanceAsnow:"当前余额 (HAPPYK)",
+            rate:"兑换比例 (FPRS / HAPPYK)",
         },
 
         account:{
@@ -16,7 +16,7 @@ class Lang {
                 contract:"合约账户",
                 swith:"切换账户",
                 balanceSero:"余额 (FPRS)",
-                balanceAsnow:"余额 (HAPPYCB)",
+                balanceAsnow:"余额 (HAPPYK)",
                 estimatedTotal:"预计总收益 (FPRS)",
                 dayIncome:"当天返还比例",
                 staticIncome:"当天静态返还 (FPRS)",
@@ -31,7 +31,7 @@ class Lang {
                 totalReturn:"当前返还总数(FPRS)",
                 totalReturnDay:"当天返还总数(FPRS)",
                 recommend:"下级人数",
-                ticket:"当前可用(HAPPYCB)",
+                ticket:"当前可用(HAPPYK)",
                 staticIncomeTips:"今天的静态收益已经支付到可提现账户.",
                 staticIncomeTips2:"触发收益到提现账户.",
                 investDetail:"投资详情",
@@ -48,9 +48,9 @@ class Lang {
             },
             button:{
                 deposit:"充值",
-                buy:"兑换HAPPYCB",
+                buy:"兑换HAPPYK",
                 invest:"投资",
-                buyTicket:"充值HAPPYCB",
+                buyTicket:"充值HAPPYK",
                 trigger:"触发收益",
                 withdraw:"提现",
                 close:"关闭",
@@ -63,7 +63,7 @@ class Lang {
                 },
 
                 buyAsnow:{
-                    title:"兑换HAPPYCB",
+                    title:"兑换HAPPYK",
                     amount:"数量 (FPRS)",
                     amountPlace:"输入数量",
                     rate:"兑换比例",
@@ -79,7 +79,7 @@ class Lang {
                     amountTips:"100 FPRS起投",
                     ticket:"门票",
                     availableFPRS:"可用的余额",
-                    availableAsnow:"可用的HAPPYCB",
+                    availableAsnow:"可用的HAPPYK",
                     availableExchange:"最多可抵用",
                     total:"应付合计",
                     estimate:"预计收益",
@@ -88,12 +88,12 @@ class Lang {
                 },
 
                 buyTicket:{
-                    title:"充值HAPPYCB",
-                    amount:"数量 (HAPPYCB)",
+                    title:"充值HAPPYK",
+                    amount:"数量 (HAPPYK)",
                     amountPlace:"输入数量",
                     password:"账户密码",
                     passwordPlace:"输入账户密码",
-                    availableAsnow:"可用的HAPPYCB",
+                    availableAsnow:"可用的HAPPYK",
                     availableExchange:"可兑换",
                 },
                 trigger:{
@@ -110,8 +110,8 @@ class Lang {
         },
         toast:{
             lessAmount:"FPRS余额不足以支付本次交易.",
-            lessTicket:"当前可用的HAPPYCB不足，请先充值HAPPYCB",
-            lessAsnow:"钱包账户中可用的HAPPYCB不足，请先兑换HAPPYCB",
+            lessTicket:"当前可用的HAPPYK不足，请先充值HAPPYK",
+            lessAsnow:"钱包账户中可用的HAPPYK不足，请先兑换HAPPYK",
             minInvest:"最小投资金额为100FPRS.",
             tx:"交易提交成功, 等待区块打包交易, 交易哈希: ",
             copySuccess:"拷贝成功! ",
@@ -122,11 +122,11 @@ class Lang {
     en_US={
         project:{
             title:"Contract Info",
-            totalSupply:"Total Supply (HAPPYCB)",
+            totalSupply:"Total Supply (HAPPYK)",
             contractAddress:"Contract Address",
             balanceSero:"Current Balance (FPRS)",
-            balanceAsnow:"Current Balance (HAPPYCB)",
-            rate:"Exchange Rate (FPRS / HAPPYCB)",
+            balanceAsnow:"Current Balance (HAPPYK)",
+            rate:"Exchange Rate (FPRS / HAPPYK)",
         },
 
         account:{
@@ -135,7 +135,7 @@ class Lang {
                 contract:"Contract Account",
                 swith:"Switch Account",
                 balanceSero:"Balance (FPRS)",
-                balanceAsnow:"Balance (HAPPYCB)",
+                balanceAsnow:"Balance (HAPPYK)",
                 estimatedTotal:"Estimated Total Income (FPRS)",
                 dayIncome:"Return rate on the day",
                 staticIncome:"Static Return (FPRS)",
@@ -150,7 +150,7 @@ class Lang {
                 totalReturn:"Total Return",
                 totalReturnDay:"Total return on the day (FPRS)",
                 recommend:"Recommend Number",
-                ticket:"Available (HAPPYCB)",
+                ticket:"Available (HAPPYK)",
                 staticIncomeTips:"Your income have been paid to the withdrawal account.",
                 staticIncomeTips2:"Trigger to withdrawal account. ",
                 investDetail:"Invest Info",
@@ -166,9 +166,9 @@ class Lang {
             },
             button:{
                 deposit:"Deposit FPRS",
-                buy:"Exchange HAPPYCB",
+                buy:"Exchange HAPPYK",
                 invest:"Invest",
-                buyTicket:"Deposit HAPPYCB",
+                buyTicket:"Deposit HAPPYK",
                 trigger:"Trigger Income",
                 withdraw:"Withdraw",
                 close:"Close",
@@ -181,7 +181,7 @@ class Lang {
                 },
 
                 buyAsnow:{
-                    title:"Exchange HAPPYCB",
+                    title:"Exchange HAPPYK",
                     amount:"Amount (FPRS)",
                     amountPlace:"Input Amount",
                     rate:"Exchange Rate",
@@ -190,12 +190,12 @@ class Lang {
                     passwordPlace:"Input Password",
                 },
                 buyTicket:{
-                    title:"Deposit HAPPYCB",
-                    amount:"Amount (HAPPYCB)",
+                    title:"Deposit HAPPYK",
+                    amount:"Amount (HAPPYK)",
                     amountPlace:"Input Number",
                     password:"Password",
                     passwordPlace:"Input Your Password",
-                    availableAsnow:"Available HAPPYCB",
+                    availableAsnow:"Available HAPPYK",
                     availableExchange:"Exchange",
                 },
                 invest:{
@@ -205,7 +205,7 @@ class Lang {
                     amount:"Invet Amount",
                     amountTips:"At least invest 100 FPRS",
                     availableFPRS:"Available Blance",
-                    availableAsnow:"Available HAPPYCB",
+                    availableAsnow:"Available HAPPYK",
                     availableExchange:"Max Exchange",
                     total:"Total",
                     estimate:"Estimated Return",
@@ -224,9 +224,9 @@ class Lang {
         },
         toast:{
             lessAmount:"The balance is not enough to pay for this transaction.",
-            lessTicket:"There are not enough tickets, please depost the happycb first.",
+            lessTicket:"There are not enough tickets, please depost the happyk first.",
             minInvest:"Invest Amount at least 100 FPRS.",
-            lessAsnow:"Insufficient HAPPYCB available in the wallet account, please exchange HAPPYCB first",
+            lessAsnow:"Insufficient HAPPYK available in the wallet account, please exchange HAPPYK first",
             tx:"The transaction was submitted successfully, waiting for the block to be packaged, and the transaction hash: ",
             copySuccess:"Copy to clipboard successfully! ",
         },
