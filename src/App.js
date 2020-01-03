@@ -915,16 +915,16 @@ class ContentPage extends Component {
                                         <Col span={12}>
                                             <Statistic title={Lang[this.state.lang].account.title.balanceSero}
                                                        value={this.state.balanceSero} precision={6}/>
-                                            <Button style={{marginTop: 16}} type="primary" onClick={() => {
-                                                this.showDeposit()
-                                            }}>{Lang[this.state.lang].account.button.deposit}</Button>
+                                            {/*<Button style={{marginTop: 16}} type="primary" onClick={() => {*/}
+                                            {/*    this.showDeposit()*/}
+                                            {/*}}>{Lang[this.state.lang].account.button.deposit}</Button>*/}
                                         </Col>
                                         <Col span={12}>
                                             <Statistic title={Lang[this.state.lang].account.title.balanceAsnow}
                                                        value={this.state.balanceAsnow} precision={6}/>
-                                            <Button style={{marginTop: 16}} type="primary" onClick={() => {
-                                                this.setState({showBuyAsnow: true})
-                                            }}>{Lang[this.state.lang].account.button.buy}</Button>
+                                            {/*<Button style={{marginTop: 16}} type="primary" onClick={() => {*/}
+                                            {/*    this.setState({showBuyAsnow: true})*/}
+                                            {/*}}>{Lang[this.state.lang].account.button.buy}</Button>*/}
                                         </Col>
                                     </Row>
 
@@ -940,17 +940,17 @@ class ContentPage extends Component {
                                             <Statistic title={Lang[this.state.lang].account.title.estimatedTotal}
                                                        value={new BigNumber(this.state.ct_details.amount ? this.state.ct_details.amount : 0).multipliedBy(this.state.ct_details.profitLevel ? this.state.ct_details.profitLevel : 0).toFixed(6)}
                                                        precision={6}/>
-                                            <Button style={{marginTop: 16}} type="primary" onClick={() => {
-                                                this.setState({showInvest: true})
-                                            }}>{Lang[this.state.lang].account.button.invest}</Button>
+                                            {/*<Button style={{marginTop: 16}} type="primary" onClick={() => {*/}
+                                            {/*    this.setState({showInvest: true})*/}
+                                            {/*}}>{Lang[this.state.lang].account.button.invest}</Button>*/}
                                         </Col>
                                         <Col span={12}>
                                             <Statistic title={Lang[this.state.lang].account.title.ticket}
                                                        value={new BigNumber(this.state.ct_details.asnowBalances ? this.state.ct_details.asnowBalances : 0).toFixed(6)}
                                                        precision={6}/>
-                                            <Button style={{marginTop: 16}} type="primary" onClick={() => {
-                                                this.setState({showBuyTicket: true})
-                                            }}>{Lang[this.state.lang].account.button.buyTicket}</Button>
+                                            {/*<Button style={{marginTop: 16}} type="primary" onClick={() => {*/}
+                                            {/*    this.setState({showBuyTicket: true})*/}
+                                            {/*}}>{Lang[this.state.lang].account.button.buyTicket}</Button>*/}
                                         </Col>
 
                                     </Row>
@@ -958,17 +958,17 @@ class ContentPage extends Component {
                                         <p/>
                                         <Col span={12}>
                                             <Statistic title={Lang[this.state.lang].account.title.staticIncome}
-                                                       value={this.state.ct_details.dayProfit} precision={6}/>
-                                            {
-                                                showCountDown ?
-                                                    <Countdown style={{marginTop: 14}} title="" format="HH:mm:ss"
-                                                               value={parseFloat(countDown)} onFinish={() => {
-                                                        this.getDetail()
-                                                    }}/> : <Button style={{marginTop: 16}} type="primary"
-                                                                   disabled={showCountDown} onClick={() => {
-                                                        this.shareProfit()
-                                                    }}>{Lang[this.state.lang].account.button.trigger}</Button>
-                                            }
+                                                       value={0} precision={6}/>
+                                            {/*{*/}
+                                            {/*    showCountDown ?*/}
+                                            {/*        <Countdown style={{marginTop: 14}} title="" format="HH:mm:ss"*/}
+                                            {/*                   value={parseFloat(countDown)} onFinish={() => {*/}
+                                            {/*            this.getDetail()*/}
+                                            {/*        }}/> : <Button style={{marginTop: 16}} type="primary"*/}
+                                            {/*                       disabled={showCountDown} onClick={() => {*/}
+                                            {/*            this.shareProfit()*/}
+                                            {/*        }}>{Lang[this.state.lang].account.button.trigger}</Button>*/}
+                                            {/*}*/}
                                         </Col>
                                         <Col span={12}>
                                             <Statistic title={Lang[this.state.lang].account.title.withdraw}
